@@ -1,0 +1,3 @@
+# Rails Girls App Tutorial
+
+Following the Rails Girls App Tutorial from http://guides.railsgirls.com/app
