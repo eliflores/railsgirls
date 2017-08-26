@@ -13,50 +13,49 @@
  *= require_tree .
  *= require_self
  */
-
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
 body {
-    padding-top: 100px;
+  padding-top: 60px;
 }
 
 footer {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 table, td, th {
-    vertical-align: middle;
-    border: none;
+  vertical-align: middle;
+  border: none;
 }
 
 th {
-    border-bottom: 1px solid #DDD;
-    color: #5B5B5B;
+  border-bottom: 1px solid #DDD;
+  color: #5B5B5B;
 }
 
 h1 {
-    color: #779CAB
+  color: #779CAB
 }
 
 .navbar-nav {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .navbar-brand {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .container {
-    font-family: verdana, arial, helvetica, sans-serif;
+  font-family: verdana, arial, helvetica, sans-serif;
 
   .navbar-nav {
     margin-right: 15px;
   }
 }
 
-footer .container{
-    padding-top: 19px;
-    color: #777;
-    text-align: center;
+footer .container {
+  padding-top: 19px;
+  color: #777;
+  text-align: center;
 }
