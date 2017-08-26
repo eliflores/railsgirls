@@ -2,30 +2,32 @@
 
 <h1>Ideas</h1>
 
-<table>
+<table class="table table-hover">
   <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Picture</th>
-      <th colspan="3"></th>
-    </tr>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Picture</th>
+    <th colspan="3"></th>
+  </tr>
   </thead>
 
   <tbody>
-    <% @ideas.each do |idea| %>
+  <% @ideas.each do |idea| %>
       <tr>
         <td><%= idea.name %></td>
         <td><%= idea.description %></td>
         <td><%= idea.picture %></td>
-        <td><%= link_to 'Show', idea %></td>
-        <td><%= link_to 'Edit', edit_idea_path(idea) %></td>
-        <td><%= link_to 'Destroy', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><a class="btn btn-info" href="<%= idea_path(idea) %>" role="button">Show</a></td>
+        <td><a class="btn btn-warning" href="<%= edit_idea_path(idea) %>" role="button">Edit</a></td>
+        <td>
+          <a class="btn btn-default" data-confirm="Are you sure?" rel="nofollow" data-method="delete"
+             href="<%= idea_path(idea) %>" role="button">Delete</a></td>
       </tr>
-    <% end %>
+  <% end %>
   </tbody>
 </table>
 
 <br>
 
-<%= link_to 'New Idea', new_idea_path %>
+<a class="btn btn-success" href="<%= new_idea_path %>" role="button">New Idea</a>
