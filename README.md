@@ -4,7 +4,11 @@ This is the application implemented for the [RailsGirls](http://guides.railsgirl
 
 * **Ruby version:** ruby 2.4.1
 
-* System dependencies
+* **System dependencies:**
+
+* **With the awesome help of:**
+    * [Font Awesome](http://fontawesome.io/)
+    * [Bootstrap](http://getbootstrap.com/)
 
 * Configuration
 
