@@ -11,19 +11,17 @@
         </div>
     <% end %>
 
-    <div class="field">
+    <div class="form-group">
       <%= form.label :user_name %>
       <%= form.text_field :user_name, id: :comment_user_name %>
     </div>
 
-    <div class="field">
+    <div class="form-group">
       <%= form.label :body %>
       <%= form.text_area :body, id: :comment_body %>
     </div>
 
     <%= form.hidden_field :idea_id %>
 
-    <div class="actions">
-      <%= form.submit %>
-    </div>
+    <button type="submit" class="btn btn-primary">Create Idea</button>
 <% end %>
