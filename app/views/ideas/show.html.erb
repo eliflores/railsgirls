@@ -10,13 +10,13 @@
     <p><b>Description: </b><%= @idea.description %></p>
     <p>
       <%= link_to 'Edit', edit_idea_path(@idea) %> |
-      <%= link_to 'Destroy', @idea, data: { confirm: 'Are you sure?' }, method: :delete %> |
+      <%= link_to 'Delete', @idea, data: { confirm: 'Are you sure?' }, method: :delete %> |
       <%= link_to 'Back', ideas_path %>
     </p>
   </div>
 </div>
 
-<div class="row">
+<div class="row col-md-12">
   <h3>Comments</h3>
   <% @comments.each do |comment| %>
       <div>
