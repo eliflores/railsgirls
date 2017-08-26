@@ -14,17 +14,17 @@
     <div class="row col-md-6">
       <div class="form-group row">
         <label for="<%= :idea_name %>">Name:</label>
-        <%= form.text_field :name, id: :idea_name %>
+        <%= form.text_field :name, id: :idea_name, :class => 'form-control' %>
       </div>
 
       <div class="form-group row">
         <label for="<%= :description %>">Description:</label>
-        <%= form.text_area :description, id: :idea_description %>
+        <%= form.text_area :description, id: :idea_description, :class => 'form-control' %>
       </div>
 
       <div class="form-group row">
         <label for="<%= :picture %>">Picture:</label>
-        <%= form.file_field :picture, id: :idea_picture %>
+        <%= form.file_field :picture, id: :idea_picture, :class => 'form-control' %>
       </div>
 
       <button class="btn btn-primary">Go! <i class="fa fa-lightbulb-o"></i></button>
