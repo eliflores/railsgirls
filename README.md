@@ -1,19 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the application implemented for the [RailsGirls](http://guides.railsgirls.com/app) workshop.
 
-Things you may want to cover:
-
-* Ruby version
+* **Ruby version:** ruby 2.4.1
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* **Database creation:** ```rails db:migrate```
 
-* Database initialization
+* **Database initialization:** ```rails db:migrate```
 
 * How to run the test suite
 

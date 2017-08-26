@@ -1,0 +1,8 @@
+{
+  "name": "Railsiando: Ruby",
+  "description": "The Idea App - From RailsGirls",
+  "image": "heroku/ruby",
+  "repository": "https://github.com/mignonnesaurus/railsgirls",
+  "keywords": ["ruby", "rails" ],
+  "addons": [ "heroku-postgresql" ]
+}
