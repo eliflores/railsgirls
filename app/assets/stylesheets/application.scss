@@ -42,10 +42,6 @@ h1 {
   font-size: 17px;
 }
 
-.navbar-brand {
-  font-size: 20px;
-}
-
 .container {
   font-family: verdana, arial, helvetica, sans-serif;
 
@@ -62,4 +58,24 @@ footer .container {
 
 .back-btn {
   margin-top: 20px;
+}
+
+.navbar {
+  min-height: 38px;
+  background-color: #A4CEE2;
+}
+
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar a.brand {
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #F7F7F7;
+  background-color: transparent;
+  text-decoration: none;
 }
