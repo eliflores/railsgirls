@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Font awesome
 gem 'font-awesome-sass'
+
+#Devise for authentication
+gem 'devise'
