@@ -16,8 +16,6 @@ group :production do
   gem 'pg'
 end
 #
-gem 'bundler'
-#
 gem 'carrierwave'
 gem 'mini_magick', '3.8.0'
 # Use Puma as the app server
