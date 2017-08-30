@@ -66,3 +66,6 @@ gem 'font-awesome-sass'
 
 #Devise for authentication
 gem 'devise'
+
+#gravtastic for Gravatar
+gem 'gravtastic'
