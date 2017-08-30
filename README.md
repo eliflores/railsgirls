@@ -9,6 +9,7 @@ This is the application implemented for the [RailsGirls](http://guides.railsgirl
 * **With the awesome help of:**
     * [Font Awesome](http://fontawesome.io/)
     * [Bootstrap](http://getbootstrap.com/)
+    * [Subtle Patterns](www.toptal.com/designers/subtlepatterns/)
 
 * Configuration
 
