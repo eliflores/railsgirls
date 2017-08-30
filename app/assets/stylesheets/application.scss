@@ -51,8 +51,9 @@ h1 {
   }
 }
 
-footer .container {
-  padding-top: 19px;
+footer {
+  background-color: #ebebeb;
+  padding: 20px 0;
   color: #777;
   text-align: center;
 }
@@ -63,7 +64,7 @@ footer .container {
 
 .navbar {
   min-height: 38px;
-  background-color: #A4CEE2;
+  background-color: #ebebeb;
 }
 
 .nav > li > a:hover {
@@ -76,7 +77,7 @@ footer .container {
 }
 
 .navbar a:hover {
-  color: #F7F7F7;
+  color: #5d5d5e;
   background-color: transparent;
   text-decoration: none;
 }
