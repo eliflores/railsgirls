@@ -49,7 +49,6 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.5'
-  gem 'codecov', '~> 0.1.10'
 end
 
 group :development do
@@ -72,3 +71,6 @@ gem 'devise'
 
 #gravtastic for Gravatar
 gem 'gravtastic'
+
+#Code cov
+gem 'simplecov', :require => false, :group => :test
