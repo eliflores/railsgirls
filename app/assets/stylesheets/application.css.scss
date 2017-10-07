@@ -18,7 +18,7 @@
 
 body {
   padding-top: 60px;
-  background: asset-url('/assets/doodles.png');
+  background: url(asset-path("doodles.png"));
 }
 
 footer {
