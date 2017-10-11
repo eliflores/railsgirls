@@ -1,6 +1,8 @@
 # README
 
-[ ![Codeship Status for mignonnesaurus/railsgirls](https://app.codeship.com/projects/271ef420-6fc6-0135-eab8-5e1fe49f8c28/status?branch=master)](https://app.codeship.com/projects/242934)
+** Staging:** [ ![Codeship Status for mignonnesaurus/railsgirls](https://app.codeship.com/projects/271ef420-6fc6-0135-eab8-5e1fe49f8c28/status?branch=staging)](https://app.codeship.com/projects/242934)
+
+** Master:** [ ![Codeship Status for mignonnesaurus/railsgirls](https://app.codeship.com/projects/271ef420-6fc6-0135-eab8-5e1fe49f8c28/status?branch=master)](https://app.codeship.com/projects/242934)
 
 This is the application implemented for the [RailsGirls](http://guides.railsgirls.com/app) workshop.
 
