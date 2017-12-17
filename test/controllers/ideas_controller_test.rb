@@ -34,7 +34,9 @@ class IdeasControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update idea" do
-    patch idea_url(@idea), params: { idea: { description: @idea.description, name: @idea.name, picture: @idea.picture } }
+    patch idea_url(@idea), params: {
+      idea: { description: @idea.description, name: @idea.name, picture: @idea.picture }
+    }
     assert_redirected_to idea_url(@idea)
   end
 
