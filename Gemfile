@@ -18,6 +18,10 @@ end
 group :production do
   gem 'pg'
 end
+group :test do
+  gem 'simplecov', :require => false
+  gem 'codecov', :require => false
+end
 #
 gem 'carrierwave'
 gem 'mini_magick', '3.8.0'
@@ -73,7 +77,3 @@ gem 'devise'
 
 #gravtastic for Gravatar
 gem 'gravtastic'
-
-#Code coverage
-gem 'simplecov', :require => false, :group => :test
-gem 'codecov', :require => false, :group => :test
