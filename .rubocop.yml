@@ -173,3 +173,7 @@ Style/SymbolArray:
 # URISchemes: http, https
 Metrics/LineLength:
   Max: 120
+
+AllCops:
+  Exclude:
+    - 'config/initializers/devise.rb'
