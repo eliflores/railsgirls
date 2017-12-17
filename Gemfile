@@ -72,5 +72,6 @@ gem 'devise'
 #gravtastic for Gravatar
 gem 'gravtastic'
 
-#Code cov
+#Code coverage
 gem 'simplecov', :require => false, :group => :test
+gem 'codecov', :require => false, :group => :test
