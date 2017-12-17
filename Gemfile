@@ -12,6 +12,7 @@ gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
+  gem 'rubocop', require: false
 end
 group :production do
   gem 'pg'
