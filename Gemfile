@@ -13,6 +13,7 @@ gem 'rails', '~> 5.1.3'
 group :development do
   gem 'sqlite3'
   gem 'rubocop', require: false
+  gem 'pry-rails'
 end
 group :production do
   gem 'pg'
