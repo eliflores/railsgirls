@@ -1,8 +1,14 @@
 require 'test_helper'
 
 class IdeasControllerTest < ActionDispatch::IntegrationTest
+  include Devise::Test::IntegrationHelpers
   setup do
     @idea = ideas(:one)
+    sign_in users(:luke)
+  end
+
+  teardown do
+    sign_out :user
   end
 
   test "should get index" do
