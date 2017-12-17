@@ -15,7 +15,7 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'simplecov'
 SimpleCov.start
-SimpleCov.minimum_coverage 100
+SimpleCov.minimum_coverage 90
 SimpleCov.refuse_coverage_drop
 require 'codecov'
 SimpleCov.formatter = SimpleCov::Formatter::Codecov
