@@ -16,7 +16,7 @@
 require 'simplecov'
 SimpleCov.start
 SimpleCov.minimum_coverage 90
-SimpleCov.refuse_coverage_drop
+SimpleCov.maximum_coverage_drop 7
 require 'codecov'
 SimpleCov.formatter = SimpleCov::Formatter::Codecov
 
