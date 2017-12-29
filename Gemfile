@@ -12,9 +12,15 @@ gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
+  gem 'rubocop', require: false
+  gem 'pry-rails'
 end
 group :production do
   gem 'pg'
+end
+group :test do
+  gem 'simplecov', :require => false
+  gem 'codecov', :require => false
 end
 #
 gem 'carrierwave'
@@ -71,6 +77,3 @@ gem 'devise'
 
 #gravtastic for Gravatar
 gem 'gravtastic'
-
-#Code cov
-gem 'simplecov', :require => false, :group => :test
