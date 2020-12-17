@@ -8,7 +8,7 @@ end
 #Specify Ruby Version
 ruby "2.7.2"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.3'
+gem 'rails', '~> 6.1.0'
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
