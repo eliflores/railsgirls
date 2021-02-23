@@ -32,6 +32,8 @@ jobs:
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: ${{ runner.os }}-gems-    
     - name: Build and test
+      env:
+        FIRST_NAME: ${{ secrets.CODECOV_TOKEN }}
       run: |
         yarn install --check-files
         gem install bundler
