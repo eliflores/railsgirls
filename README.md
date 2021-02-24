@@ -1,6 +1,7 @@
 # README
 
 ![CI](https://github.com/eliflores/railsgirls/workflows/CI/badge.svg)
+[![codecov](https://codecov.io/gh/eliflores/railsgirls/branch/master/graph/badge.svg?token=IWTQSnKXNp)](https://codecov.io/gh/eliflores/railsgirls)
 
 This is the application implemented for the [RailsGirls](http://guides.railsgirls.com/app) workshop.
 
