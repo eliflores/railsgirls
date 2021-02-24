@@ -6,7 +6,7 @@
 
 This is the application implemented for the [RailsGirls](http://guides.railsgirls.com/app) workshop.
 
-* **Ruby version:** 2.4.1
+* **Ruby version:** 2.7.2
 * **Rails version:** 5.1.3
 
 * **System dependencies:**
