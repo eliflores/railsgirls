@@ -20,3 +20,18 @@ This is the application implemented for the [RailsGirls](http://guides.railsgirl
 * **Database initialization:** ```rails db:migrate```
 
 * **How to run the test suite:** ```bundle exec rspec```
+
+* **How to update gems (to [fix security vulnerabilities](https://github.com/eliflores/railsgirls/security), for 
+  example):**
+  * Use [bundler](https://bundler.io/guides/using_bundler_in_applications.html)
+
+```bash
+bundle install --jobs 4 --retry 3 
+bundle update
+```
+
+  * Run Tests and make sure they pass ✅
+```bash
+bundle exec rails test
+bundle exec rails test:system
+```

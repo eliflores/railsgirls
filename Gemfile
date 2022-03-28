@@ -70,7 +70,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Font awesome
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', '~> 4.4.0'
 
 #Devise for authentication
 gem 'devise'
