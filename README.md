@@ -19,7 +19,7 @@ This is the application implemented for the [RailsGirls](http://guides.railsgirl
 
 * **Database initialization:** ```rails db:migrate```
 
-* **How to run the test suite:** ```bundle exec rspec```
+* **How to run the test suite:** ```bundle exec rails test && bundle exec rails test:system```
 
 * **How to update gems (to [fix security vulnerabilities](https://github.com/eliflores/railsgirls/security), for 
   example):**
