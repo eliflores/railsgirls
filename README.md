@@ -5,8 +5,9 @@
 
 This is the application implemented for the [RailsGirls](http://guides.railsgirls.com/app) workshop.
 
-* **Ruby version:** 2.7.2
-* **Rails version:** 6.1.0
+* **Ruby version:** See [.tool-versions](.tool-versions)
+
+* **Rails version:** See [Gemfile](Gemfile)
 
 * **System dependencies:**
 
