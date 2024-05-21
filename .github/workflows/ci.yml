@@ -33,7 +33,7 @@ jobs:
         restore-keys: ${{ runner.os }}-gems-    
     - name: Build and test
       env:
-        FIRST_NAME: ${{ secrets.CODECOV_TOKEN }}
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       run: |
         yarn install --check-files
         gem install bundler -v 2.4.21
